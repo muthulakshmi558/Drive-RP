@@ -58,10 +58,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'bike_project.urls'
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://drive-rp.onrender.com", 
+    "https://drive-rp.onrender.com",
+    "http://localhost:5173",
 ]
 
 
