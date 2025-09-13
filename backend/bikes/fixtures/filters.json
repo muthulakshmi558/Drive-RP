@@ -1,0 +1,82 @@
+[
+  {
+    "model": "bikes.filteroption",
+    "pk": 1,
+    "fields": {
+      "title": "Budget",
+      "type": "range",
+      "min": 1000,
+      "max": 200000,
+      "step": 1000,
+      "unit": "₹"
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 2,
+    "fields": {
+      "title": "Category",
+      "type": "checkbox",
+      "options": ["Scooty","Motorbike","EVS"]
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 3,
+    "fields": {
+      "title": "Brand",
+      "type": "checkbox",
+      "options": ["TVS","Honda","Bajaj","Hero","Royal Enfield"]
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 4,
+    "fields": {
+      "title": "Year",
+      "type": "range",
+      "min": 2007,
+      "max": 2025,
+      "step": 1
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 5,
+    "fields": {
+      "title": "Kilometers",
+      "type": "range",
+      "min": 0,
+      "max": 100000,
+      "step": 1000,
+      "unit": "km"
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 6,
+    "fields": {
+      "title": "Engine Trim CC",
+      "type": "checkbox",
+      "options": ["Below 100CC","Below 200CC","Below 300CC","Below 400CC","Below 500CC"]
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 7,
+    "fields": {
+      "title": "Fuel Type",
+      "type": "checkbox",
+      "options": ["Petrol","Diesel","Electric"]
+    }
+  },
+  {
+    "model": "bikes.filteroption",
+    "pk": 8,
+    "fields": {
+      "title": "Color",
+      "type": "checkbox",
+      "options": ["Black","Red","Blue","White"]
+    }
+  }
+]

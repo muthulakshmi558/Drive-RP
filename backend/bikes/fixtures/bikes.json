@@ -1,0 +1,116 @@
+[
+  {
+    "model": "bikes.bike",
+    "pk": 1,
+    "fields": {
+      "title": "2023 | Yamaha MT 15 | 150CC BS6",
+      "brand": "Yamaha",
+      "category": "sports",
+      "year": 2023,
+      "km_driven": 8700,
+      "engine_cc": 150,
+      "fuel_type": "petrol",
+      "color": "blue",
+      "price": "115000.00",
+      "location": "Thirunelveli",
+      "owner": "1st Owner",
+      "image": "bikes/yamaha-mt15.jpg",
+      "is_booked": false
+    }
+  },
+  {
+    "model": "bikes.bike",
+    "pk": 2,
+    "fields": {
+      "title": "2013 | Suzuki Access | 125CC",
+      "brand": "Suzuki",
+      "category": "scooter",
+      "year": 2013,
+      "km_driven": 2600,
+      "engine_cc": 125,
+      "fuel_type": "petrol",
+      "color": "black",
+      "price": "30000.00",
+      "location": "Kanchipuram",
+      "owner": "2nd Owner",
+      "image": "bikes/suzuki-access.jpg",
+      "is_booked": false
+    }
+  },
+  {
+    "model": "bikes.bike",
+    "pk": 3,
+    "fields": {
+      "title": "2021 | Royal Enfield Classic 350 | 350CC BS6",
+      "brand": "Royal Enfield",
+      "category": "cruiser",
+      "year": 2021,
+      "km_driven": 15200,
+      "engine_cc": 350,
+      "fuel_type": "petrol",
+      "color": "maroon",
+      "price": "165000.00",
+      "location": "Chennai",
+      "owner": "1st Owner",
+      "image": "bikes/re-classic350.jpg",
+      "is_booked": true
+    }
+  },
+  {
+    "model": "bikes.bike",
+    "pk": 4,
+    "fields": {
+      "title": "2019 | KTM Duke 200 | 200CC ABS",
+      "brand": "KTM",
+      "category": "sports",
+      "year": 2019,
+      "km_driven": 9400,
+      "engine_cc": 200,
+      "fuel_type": "petrol",
+      "color": "orange",
+      "price": "135000.00",
+      "location": "Coimbatore",
+      "owner": "2nd Owner",
+      "image": "bikes/ktm-duke200.jpg",
+      "is_booked": false
+    }
+  },
+  {
+    "model": "bikes.bike",
+    "pk": 5,
+    "fields": {
+      "title": "2018 | Honda Activa 5G | 110CC",
+      "brand": "Honda",
+      "category": "scooter",
+      "year": 2018,
+      "km_driven": 7800,
+      "engine_cc": 110,
+      "fuel_type": "petrol",
+      "color": "white",
+      "price": "48000.00",
+      "location": "Madurai",
+      "owner": "1st Owner",
+      "image": "bikes/honda-activa5g.jpg",
+      "is_booked": false
+    }
+  },
+  {
+    "model": "bikes.bike",
+    "pk": 6,
+    "fields": {
+      "title": "2022 | TVS Apache RTR 160 4V | 160CC",
+      "brand": "TVS",
+      "category": "sports",
+      "year": 2022,
+      "km_driven": 5600,
+      "engine_cc": 160,
+      "fuel_type": "petrol",
+      "color": "red",
+      "price": "110000.00",
+      "location": "Salem",
+      "owner": "1st Owner",
+      "image": "bikes/tvs-apache160.jpg",
+      "is_booked": false
+    }
+  }
+]
