@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-j+oym%6zd8ftl6%t$nm$2fcsg0a@6gi+u1#tp5%2dc1nl!=g=a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
+ALLOWED_HOSTS = ['drive-rp.onrender.com', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
@@ -63,7 +61,7 @@ ROOT_URLCONF = 'bike_project.urls'
 CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", 
+    "https://drive-rp.onrender.com", 
 ]
 
 
